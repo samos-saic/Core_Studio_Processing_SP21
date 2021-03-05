@@ -16,7 +16,8 @@ void draw(){
   //this rectangle draws a translucent that fades out the screen
   
   fill(#202020, 50); // first is fill, second is alpha
-  rect(-10, -10, width + 20, height + 20);
+  noStroke(); //shuts off stroke so rect does not inherit stroke from line
+  rect(0, 0, width, height);
   
   stroke(random(255),random(255), random(255), 100);
   strokeWeight(random(2, 10));
