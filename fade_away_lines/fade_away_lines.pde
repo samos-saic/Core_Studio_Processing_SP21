@@ -1,7 +1,9 @@
-/*randomly draws lines of different color lines across the screen that fade over
+/*Draws lines of random colors at random positions and lengths across the screen.
+We have the option to enable a screen that will allow the drawing to fade over
 time. Custom key functions were created that enable us to clear the screen and 
 save individual frames inside of our sketch folder.
 */
+
 void setup(){
   size(600, 600);
   background(#202020);
