@@ -1,4 +1,6 @@
-// Based off Abe Pazos Fun Programming
+/* Based off Abe Pazos Fun Programming
+https://funprogramming.org/22-Stars-blinking-at-night-fade-out-effect.html
+*/
 
 void setup(){
   size(600, 600);
